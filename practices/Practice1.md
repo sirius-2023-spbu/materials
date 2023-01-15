@@ -180,6 +180,7 @@ class Person(
 Попробуйте решить самостоятельно.
 
 - Необходима зависимость на [KoSAT](https://github.com/UnitTestBot/kosat)
+
 ```
 repositories {
     ...
@@ -193,6 +194,7 @@ dependencies {
 ```
 
 - Проверьте решение на этом графе
+
 ![img.png](imgs/img_1_0.png)
 
 ### Решаем задачу о расстановке ферзей
