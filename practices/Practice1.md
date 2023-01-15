@@ -193,6 +193,35 @@ dependencies {
 }
 ```
 
+- Пример использования:
+
+```kotlin
+import org.kosat.Kosat
+
+fun main() {
+// Create the SAT solver:
+val solver = Kosat(mutableListOf(), 0)
+
+    // Allocate two variables:
+    solver.addVariable()
+    solver.addVariable()
+
+    // Encode TIE-SHIRT problem:
+    solver.addClause(-1, 2)
+    solver.addClause(1, 2)
+    solver.addClause(-1, -2)
+    // solver.addClause(1, -2) // UNSAT with this clause
+
+    // Solve the SAT problem:
+    val result = solver.solve()
+    println("result = $result")
+
+    // Get the model:
+    val model = solver.getModel()
+    println("model = $model")
+}
+```
+
 - Проверьте решение на этом графе
 
 ![img.png](imgs/img_1_0.png)
