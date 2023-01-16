@@ -22,5 +22,5 @@
 
 ## Домашние задания
 
-1. [sat-sudoku](https://classroom.github.com/a/bQTzX2om). Дедлайн 16 января 16:00.
-2. [smt-problems](https://classroom.github.com/a/oxPrjirN). Дедлайн 17 января 20:00.
+1. [sat-sudoku](https://classroom.github.com/a/bQTzX2om). Дедлайн 16 января 22:00.
+2. [smt-problems](https://classroom.github.com/a/oxPrjirN). Дедлайн 17 января 22:00.
